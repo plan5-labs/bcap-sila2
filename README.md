@@ -25,7 +25,7 @@ Python >= 3.11, [uv](https://docs.astral.sh/uv/), and a DENSO controller
 `orin_bcap` is a git submodule, so clone recursively:
 
 ```bash
-git clone --recurse-submodules git@github.com:kaizu/bcap-sila2.git
+git clone --recurse-submodules https://github.com/plan5-labs/bcap-sila2.git
 cd bcap-sila2
 uv sync
 ```
